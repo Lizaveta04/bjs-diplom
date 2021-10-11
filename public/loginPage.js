@@ -28,7 +28,7 @@ class UserForm {
             login,
             password,
         };
-        
+
     }
     getData(form) { //метод получения данных из переданной формы
 
