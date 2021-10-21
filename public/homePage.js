@@ -4,7 +4,7 @@
 
 //Выход из личного кабинета.
 const logoutButton = new LogoutButton();
-logoutButton.action = (f) => { 
+logoutButton.action = () => { 
     ApiConnector.logout((response) => {
         if (response.success === true) {
             location.reload();
